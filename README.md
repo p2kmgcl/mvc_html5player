@@ -1,18 +1,14 @@
-# ¡Hola caracola!
-
-Si has llegado hasta aquí quiere decir que te has tomado la molestia de indagar un poco en mi trabajo. Solo por eso has ganado una preciosa carita sonriente: ^^. Pero pongámonos serios, porque aquí empieza el meollo.
-
 # Reproductor HTML5
 
 Este reproductor es mi primera prueba con Backbone.js (sin contar las chapucillas que he ido probando conforme aprendía). A lo largo de unas cuantas entradas en mi blog he ido documentando como hacer este reproductor, por lo que si te interesa aqui tienes la lista de entradas:
 
  - [Reproductor de música HTML5 con Backbone](http://blog.pablomolina.me/2013/01/mvc-iintroduccion-y-parte-1-songmodel.html)
- - [... En proceso ...]
+ - [Parte II - PlayerView](http://blog.pablomolina.me/2013/02/mvci-playerview.html)
 
-Además este proyecto está generado con [Yeoman](http://yeoman.io/), por lo que si quieres generar el resultado solo tienes que hacer:
+Además este proyecto está generado con [Yeoman](http://yeoman.io/) (versión 0.9), por lo que si quieres generar el resultado solo tienes que hacer:
 
-    git clone git@github.com:p2kmgcl/p2kmgcl.github.com.git -b mvc1
-    cd mi/Nuevo/SuperReproductor
+    git clone https://github.com/p2kmgcl/mvc_html5player.git
+    cd mvc_html5player
     yeoman build
 
 # Licencia
