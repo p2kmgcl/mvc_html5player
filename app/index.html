@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Ejemplo del reproductor de música HTML5</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="components/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="styles/main.css"/>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <footer id="license">
+            <h1>¡Atención atenciosa!</h1>
+            <p>Este reproductor ha sido creado por <a href="http://pablomolina.me">Pablo Molina</a>. Puedes usarlo a tu antojo, siempre que menciones en una pequeña esquina su nombre. Además puedes ver <strong>más información sobre su desarrollo en <a href="https://github.com/p2kmgcl/p2kmgcl.github.com/tree/main/examples/MVC/0001_html5player" target="_blank">este enlace tan bonito</a>.</strong></p>
+            <p>Las Canciones utilizadas en este ejemplo son propiedad de Benoit Stanek y Sunsearcher. Están bajo la licencia Creative Commons y, para más información, ambos autores pueden encontrarse en <a href="http://www.jamendo.com" target="_blank">jamendo.com</a>.</p>
+        </footer>
+
+        <!-- build:js scripts/scripts.js -->
+        <script src="scripts/vendor/prefixfree.min.js"></script>
+        <script src="scripts/vendor/jquery.min.js"></script>
+        <script src="scripts/vendor/lodash.min.js"></script>
+        <script src="scripts/vendor/backbone-min.js"></script>
+        <script src="scripts/vendor/ejs_production.js"></script>
+
+        <script src="scripts/main.js"></script>
+        <script src="scripts/tools.js"></script>
+        <script src="scripts/models/Song-model.js"></script>
+        <script src="scripts/views/Player-view.js"></script>
+        <script src="scripts/views/application-view.js"></script>
+        <script src="scripts/models/application-model.js"></script>
+        <!-- endbuild -->
+
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<div class="info">
+    <h1 class="title"><%= title %></h1>
+    <h2 class="artist"><%= artist %></h2>
+</div>
+<figure class="album">
+    <img src="<%= albumCover %>" title="<%= albumTitle %>" alt="<%= albumTitle %>" />
+    <figcaption><%= albumTitle %></figcaption>
+</figure>
+<div class="time">
+    <span class="elapsedTime"><%= elapsedTime %></span>
+    <span class="totalTime"><%= totalTime %></span>
+</div>
+<div class="controls">
+    <div class="progressbar">
+        <div class="elapsed" style="width: <%= elapsedPercent %>%;"></div>
+    </div>
+    <div class="buttons">
+        <i class="icon-fast-backward icon-large songBefore"></i>
+        <i class="icon-play icon-large playPause"></i>
+        <i class="icon-fast-forward icon-large songAfter disabled"></i>
+    </div>
+    <i class="icon-volume-off icon-large volume"></i>
+</div>
